@@ -28,38 +28,6 @@ object Dependencies {
         "io.grpc:grpc-kotlin-stub:${Versions.grpcKotlinVersion}",
     )
 
-    val SPRING_DATA_MONGODB = listOf(
-        "org.springframework.boot:spring-boot-starter-data-mongodb",
-    )
-
-    val SPRINGDOC_STARTER = "org.springdoc:springdoc-openapi-starter-webmvc-ui:${Versions.openApiStarterVersion}"
-
-    val SPRING_WEB = listOf(
-        "org.springframework.boot:spring-boot-starter-web",
-    )
-
-    val SPRING_SECURITY = listOf(
-        "org.springframework.boot:spring-boot-starter-security",
-    )
-
-    val SPRING_BATCH = listOf(
-        "org.springframework.boot:spring-boot-starter-batch",
-        "org.springframework.cloud:spring-cloud-starter-task",
-    )
-
-    val SPRING_COMMON = listOf(
-        "org.springframework.boot:spring-boot-starter-validation",
-        "org.springframework.data:spring-data-commons",
-    )
-
-    val REDIS = listOf(
-        "org.springframework.boot:spring-boot-starter-data-redis",
-    )
-
-    val FEIGN = listOf(
-        "org.springframework.cloud:spring-cloud-starter-openfeign",
-    )
-
     val JACKSON = listOf(
         "com.fasterxml.jackson.module:jackson-module-kotlin",
         "org.jetbrains.kotlin:kotlin-reflect",
