@@ -2,7 +2,7 @@ rootProject.name = "armeria_spring_boot_integration"
 
 include(
     "protobufs",
-//    "api",
+    "api",
 )
 
 pluginManagement {
@@ -11,4 +11,3 @@ pluginManagement {
         mavenCentral()
     }
 }
-

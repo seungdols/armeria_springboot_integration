@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: api
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+
+# Prevent the embedded Tomcat from opening a TCP/IP port.
+server:
+  port: -1
+  shutdown: graceful
+
+armeria:
+  ports:
+    - port: 8080
+      protocols:
+        - HTTP
+
+logging:
+  level:
+    root: INFO
+
+
